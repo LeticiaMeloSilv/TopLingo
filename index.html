@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./img/Group 1.png" alt="">
+        <img id="escurecer" class="lua" src="./img/lua 1.png" alt="">
+    </header>
+    <main>
+        <div id="container" class="container">
+            <div class="info">
+                <select name="" id="select1">
+                    <option value="pt" selected>Português</option>
+                    <option value="en" >Inglês</option>
+                    <option value="es">Espanhol</option>
+                    <option value="it">Italiano</option>
+                    <option value="fr">Francês</option>
+                    <option value="ja">Japonês</option>
+                </select>
+                <img id="trocar" src="./img/image-removebg-preview (2).png" alt="">
+                <select name="" id="select2">
+                    <option value="pt">Português</option>
+                    <option value="en"selected>Inglês</option>
+                    <option value="es">Espanhol</option>
+                    <option value="it">Italiano</option>
+                    <option value="fr">Francês</option>
+                    <option value="ja">Japonês</option>
+                </select>
+            </div>
+            <div id="escrever" class="escrever">
+                <textarea placeholder="Escreva seu texto aqui" maxlength="500" name="" id="texto"></textarea>
+                <div class="linha_escrever linha">
+                    <img id="audioEntrada" src="./img/formato-preto-do-microfone 1.png" alt="">
+                    <img id="img_escrever" src="" alt="">
+                </div>
+            </div>
+            <button id="traduzir" onload="trocarTextoBotao()">Traduzir para en</button>
+            <div id="imprimir" class="imprimir">
+                <p id="impressao"></p>
+                <div class="linha_imprimir linha">
+                    <img id="audioSaida" src="./img/headphone 1.png" alt="">
+                    <img id="img_imprimir" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

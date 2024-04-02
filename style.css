@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    align-items: center;
+}
+
+header img{
+    height: 100%;
+    width: 10%;
+}
+
+.lua{
+    height: 60%;
+    width: 4%;
+    cursor: pointer;
+
+}
+
+main{
+    height: 85%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6vh;
+}
+
+.container{
+    height: 100%;
+    width: 60%;
+    background-color: #BCCEF8;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2vh;
+    gap: 4vh;
+}
+
+.info{
+    width: 100%;
+    height: 7%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    flex-direction: row;
+}
+
+.info img{
+    height: 100%;
+    cursor: pointer;
+
+}
+
+h1{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.escrever{
+    padding: 0vh 1vw;
+    background-color: #F8F8F8;
+    width: 83%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    font-size: 0.96vw;
+    width: 100%;
+    min-height: 70%;
+    border: none;
+    resize: none;
+    background-color: #F8F8F8;
+    padding: 1vh 1vw;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+button{
+    width: 40%;
+    height: 6%;
+    background-color: #F8F8F8;
+    cursor: pointer;
+
+}
+.imprimir{
+    padding: 1vh 1vw;
+    background-color: #F8F8F8;
+    width: 83%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;   
+}
+
+p{
+    font-size: 0.9vw;
+    width: 100%;
+    min-height: 79%;
+    border: none;
+    resize: none;
+    background-color: #F8F8F8;
+    padding: 1vh 1vw;
+}
+
+.branco{
+    color: white;
+}
+
+.container_escuro{
+    background-color: #535C91;
+}
+
+.body_escuro{
+    background-color: #070F2B;
+}
+
+option{
+    background-color: #535C91;
+    color: white;
+}
+
+.campos_escuros{
+    background-color: #9290C3;
+}
+
+select{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5vw;
+}
+select, option{
+    cursor: pointer;
+
+}
+
+.linha{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 3vw;
+}
+
+.linha img{
+    height: 70%;
+    width: 7%;
+}
+
+#audioSaida{
+    cursor: pointer;
+}
