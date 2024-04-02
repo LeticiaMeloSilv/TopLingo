@@ -2,7 +2,7 @@
 
 <p>Processo de aprendizagem-FrontEnd
   <br/>
-  27/02/2024-15/02/2024</p>
+  27/01/2024-15/01/2024</p>
 <p>Trabalho em duplas para gerenciamento de projetos</p>
 
 <p>Dupla: <a href="https://github.com/MatheusNoronhadaSilva/Toplingo-tradu-ao.git">Matheus Noronha</a>
